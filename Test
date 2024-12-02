@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebok - تسجيل الدخول</title>
+    <style>
+        /* إعدادات أساسية */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* التصميم العام */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            color: #1c1e21;
+        }
+
+        /* الشريط العلوي */
+        header {
+            background-color: #1877f2;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header .logo h1 {
+            color: white;
+            font-size: 24px;
+        }
+
+        header .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        /* تصميم نموذج تسجيل الدخول */
+        .login-container {
+            max-width: 400px;
+            margin: 100px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .login-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #1877f2;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        /* تذييل الموقع */
+        footer {
+            background-color: #f7f7f7;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            color: #606770;
+        }
+
+        footer span {
+            font-weight: bold;
+            color: #1c1e21;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- الشريط العلوي -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Facebok</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#">الصفحة الرئيسية</a>
+                <a href="#">الملف الشخصي</a>
+                <a href="#">الرسائل</a>
+                <a href="#">الإشعارات</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- محتوى الصفحة -->
+    <main>
+        <div class="login-container">
+            <form action="#" method="post">
+                <h2>تسجيل الدخول</h2>
+                <input type="email" placeholder="البريد الإلكتروني" required>
+                <input type="password" placeholder="كلمة المرور" required>
+                <button type="submit">تسجيل الدخول</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- تذييل الموقع -->
+    <footer>
+        <div class="footer-container">
+            <p>حقوق الطبع والنشر &copy; 2024 <span>تم التصميم بواسطة أحمد محروص</span></p>
+        </div>
+    </footer>
+
+</body>
+</html>
